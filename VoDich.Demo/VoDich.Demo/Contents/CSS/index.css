@@ -1,0 +1,294 @@
+﻿body {
+    margin: 0px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    height: 56px;
+    left: 0px;
+    right: 0;
+    background-color: #232323;
+    padding: 0 16px;
+    display: flex;
+}
+    header #button-bars {
+        position: relative;
+        top: 8px;
+        width: 40px;
+        height: 40px;
+        padding: 7.5px 9.5px;
+        box-sizing:border-box;
+        margin-right: 16px;
+    }
+        header #button-bars i {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+    header #logo-youtobe {
+        position: relative;
+        width: 129px;
+        height: 30px;
+        top: 13px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+        header #logo-youtobe .icon-youtobe {
+        
+        }
+
+            header #logo-youtobe .icon-youtobe i {
+                color: #ff0000;
+                font-size: 30px;
+                background-image: url('../Images/bg_white.png');
+                background-repeat: no-repeat;
+                background-size: 20px;
+                background-position: 10px 10px;
+            }
+
+        header #logo-youtobe .text-youtobe {
+            color: #ffffff;
+            line-height: 30px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+    header #search {
+        position: relative;
+        height: 30px;
+        top: 13px;
+        margin: 0 40px;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+        header #search .box-search {
+            height: 24px;
+            border: 1px solid #343434;
+            padding: 2px 6px;
+            width: 380px;
+            background-color: #121212;
+        }
+
+            header #search .box-search input {
+                width: 350px;
+                height: 24px;
+                border: none;
+                padding: unset;
+                background-color: #121212;
+                color: #ffffff;
+            }
+
+            header #search .box-search span {
+
+            }
+
+                header #search .box-search span i {
+                    color: #A0A0A0;
+                }
+
+        header #search .button-search {
+            box-sizing: border-box;
+            width: 65px;
+            height: 30px;
+            background-color: #343434;
+            padding: 7px 24.5px;
+        }
+
+            header #search .button-search i {
+                color: #707070;
+            }
+
+    header #header-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        height: 40px;
+        width: 250px;
+        display: flex;
+    }
+
+        header #header-right .button-right {
+            width: 24px;
+            padding: 11px;
+            color: #FFFFFF;
+        }
+
+            header #header-right .button-right i {
+                font-size: 18px;
+            }
+
+        header #header-right .button-right-img {
+            color: #FFFFFF;
+            padding: 4px;
+        }
+
+            header #header-right .button-right-img img {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+            }
+
+main {
+    position: relative;
+    top: 56px;
+    right: 0;
+    left: 0;
+}
+
+    main #video {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 800px;
+    }
+
+        main #video iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+    main #content {
+        position: absolute;
+        right: 83px;
+        left: 83px;
+        top: 800px;
+    }
+
+        main #content .info-video {
+            position: relative;
+            width: 75%;
+            padding: 24px;
+        }
+
+            main #content .info-video .tags-video {
+                font-size: 13px;
+                color: #4789DF;
+            }
+
+                main #content .info-video .tags-video a {
+                    text-decoration: none;
+                }
+
+            main #content .info-video .name-video {
+                font-size: 18px;
+            }
+
+            main #content .info-video .view-like-share {
+                padding: 10px 0;
+                display: flex;
+                border-bottom: 2px solid #EEEEEE;
+            }
+
+                main #content .info-video .view-like-share .view {
+                    color: #949494;
+                }
+
+                main #content .info-video .view-like-share .like-share {
+                    display: flex;
+                    position: absolute;
+                    right: 24px;
+                    color: #909090
+                }
+
+                    main #content .info-video .view-like-share .like-share .like {
+                        margin: 0 10px;
+                    }
+
+                        main #content .info-video .view-like-share .like-share .like i {
+                            margin: 0 5px;
+                        }
+
+                        main #content .info-video .view-like-share .like-share .like span {
+                            margin:  0 5px;
+                        }
+
+                    main #content .info-video .view-like-share .like-share .dislike {
+                        margin: 0 10px;
+                    }
+
+                        main #content .info-video .view-like-share .like-share .dislike i {
+                            margin: 0 5px;
+                        }
+
+                        main #content .info-video .view-like-share .like-share .dislike span {
+                            margin: 0 5px;
+                        }
+
+                    main #content .info-video .view-like-share .like-share .share {
+                        margin: 0 10px;
+                    }
+
+                        main #content .info-video .view-like-share .like-share .share i {
+                            margin: 0 5px;
+                        }
+
+                        main #content .info-video .view-like-share .like-share .share span {
+                            margin: 0 5px;
+                        }
+
+                    main #content .info-video .view-like-share .like-share .add {
+                        margin: 0 10px;
+                    }
+
+                    main #content .info-video .view-like-share .like-share .dot-dot-dot {
+                        margin: 0 10px;
+                    }
+
+
+
+#form-comment {
+}
+
+    #form-comment .num-of-comments {
+        display: flex;
+        margin: 20px 0;
+    }
+    
+    #form-comment .my-comment {
+        display: flex
+    }
+
+        #form-comment .my-comment .img {
+
+        }
+
+            #form-comment .my-comment .img img {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+            }
+
+        #form-comment .my-comment .box-comment {
+            width: 100%;
+            margin-left: 20px;
+        }
+
+            #form-comment .my-comment .box-comment input {
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid #EEEEEE;
+            }
+
+            #form-comment .my-comment .box-comment .button-comment {
+                display:flex;
+                margin: 10px 0;
+                float: right;
+            }
+
+                #form-comment .my-comment .box-comment .button-comment .btn-cancel {
+                    padding: 10px 16px;
+                    width: auto;
+                    margin: 0 10px;
+                }
+
+                #form-comment .my-comment .box-comment .button-comment .btn-comment {
+                    padding: 10px 16px;
+                    width: auto;
+                    background: #2793E6;
+                    color: #ffffff;
+                }

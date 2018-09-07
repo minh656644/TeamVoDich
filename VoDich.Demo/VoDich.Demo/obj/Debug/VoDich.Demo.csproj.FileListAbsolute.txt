@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\bin\VoDich.Demo.dll.config
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\bin\VoDich.Demo.dll
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\bin\VoDich.Demo.pdb
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\obj\Debug\VoDich.Demo.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\obj\Debug\VoDich.Demo.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\obj\Debug\VoDich.Demo.dll
+C:\Users\Acer\source\repos\VoDich.Demo\VoDich.Demo\obj\Debug\VoDich.Demo.pdb
